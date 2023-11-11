@@ -1,12 +1,14 @@
-import underConstruction from "./assets/under-construction.png"
-import "./css/App.css"
+import "./css/App.css";
+
 function App(): JSX.Element {
   return (
     <>
-      <main className = "container" >
-        <h1> Oops! I'm under construction!</h1>
-        <h2> I'm sure it's worth the wait...</h2>
-        <img src={underConstruction} alt="under-construction" />
+      <main>
+        <h1 className="title-heading"> Hi, Eralia here!</h1>
+        <h2 className="subtitle-heading">
+          {" "}
+          I'm probably busy dancing at the moment - please try again later.
+        </h2>
       </main>
     </>
   );
